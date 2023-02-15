@@ -1,0 +1,33 @@
+
+{ 
+  "header":{
+    "header":"H",
+    "process_staus":"20",
+    "total_count":10
+  },
+  "details":[
+    {
+      "detail_serial":"00000001",
+      "detail_status":"10",
+      "detail_err_desc":"",
+      "editing":false
+    },
+    {
+      "detail_serial":"00000002",
+      "detail_status":"10",
+      "detail_err_desc":"",
+      "editing":false
+    },
+    {
+      "detail_serial":"00000003",
+      "detail_status":"50",
+      "detail_err_desc":"客戶帳號代碼錯誤",
+      "editing":false
+    }
+  ],
+  "tailer":{
+    "tailer":"T",
+    "success_count":6,
+    "fail_count":4
+  }
+}

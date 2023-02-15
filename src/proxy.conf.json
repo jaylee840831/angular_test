@@ -1,0 +1,16 @@
+{
+    "/v1":{
+        "target":"https://openapi.twse.com.tw",
+        "secure":false,
+        "changeOrigin": true
+    },
+    "/api":{
+        "target":"https://api.kcg.gov.tw",
+        "secure":false
+    },
+    "/openapi":{
+        "target":"https://www.tpex.org.tw",
+        "secure":false,
+        "changeOrigin": true
+    }
+}
