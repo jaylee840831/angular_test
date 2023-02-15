@@ -21,6 +21,9 @@ export class AppComponent implements OnInit{
   TodoStatusType = TodoStatusType;
   nowSelectUser!: User;
   num = 0;
+  agreed = 0;
+  disagreed = 0;
+  voters = ['馬英九','蔡英文','柯文哲'];
 
   toggleBtn = false;
   check1= false;
@@ -149,6 +152,15 @@ export class AppComponent implements OnInit{
       numbers:[1,2,3,4,5]
     }
   };
+
+  onVoted(a : boolean){
+    if(a){
+      this.agreed++;
+    }
+    else{
+      this.disagreed++;
+    }
+  }
 
   toggleAllBtn(){
     this.toggleBtn = !this.toggleBtn;

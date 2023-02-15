@@ -2,6 +2,17 @@
 <app-hello [title]="title" [show_name]="show_name"></app-hello>
 <app-hello title="你好" show_name="jordan"></app-hello>
 
+<div class="distanceDiv">
+  <h4>投票統計結果&nbsp;&nbsp;同意:{{agreed}}&nbsp;&nbsp;&nbsp;不同意:{{disagreed}}</h4>
+<app-vote
+*ngFor="let voter of voters"
+[name]="voter"
+(voted)="onVoted($event)">
+</app-vote>
+</div>
+
+<!--------------------------->
+
 <div class="aa">{{title}} {{show_name}}</div>
 <p></p>
 <input [placeholder]="phd">
