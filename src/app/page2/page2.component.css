@@ -1,0 +1,50 @@
+.aa{
+    font-style: italic;
+}
+.btnFontColor{
+    color: yellow;
+}
+.btnSearch{
+    color: antiquewhite;
+    background-color: black;
+    height: 40px;
+}
+.btnNoBorder{
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: white;
+}
+table, th, td {
+    width: 90%;
+    table-layout:fixed;
+    word-break:break-all;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-right: 50px;
+  }
+#tableBody{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#tableFooter{
+    display:flex;
+    flex-direction: column;
+}
+.distanceDiv{
+    margin-bottom: 50px;
+}
+.selected{
+    background-color: black;
+    color: yellow;
+}
+ul, li{
+    list-style-type: none;
+    float:left;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+}
