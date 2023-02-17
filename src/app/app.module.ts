@@ -1,3 +1,4 @@
+import { ProcessBarModule } from './@shared/process-bar/process-bar.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -19,7 +20,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
     NgbModule,
     HttpClientModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ProcessBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

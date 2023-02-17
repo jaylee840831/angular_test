@@ -4,9 +4,10 @@
         "secure":false,
         "changeOrigin": true
     },
-    "/api":{
-        "target":"https://api.kcg.gov.tw",
-        "secure":false
+    "/api": {
+        "target": "https://todo.talllkai.com/",
+        "secure": false,
+        "changeOrigin": true
     },
     "/openapi":{
         "target":"https://www.tpex.org.tw",
